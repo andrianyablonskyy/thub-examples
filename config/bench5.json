@@ -1,0 +1,81 @@
+{
+  "coordinatorUrl": "https://thub.example.com",
+  "type": "hw",
+  "labels": [
+    "bench:5-duts"
+  ],
+  "joinKey": "<same value as the Coordinator's clientJoinKey>",
+  "hw-devices": {
+    "stlinks": [
+      {
+        "index": 1,
+        "devpath": "3.3.4.3.1"
+      },
+      {
+        "index": 2,
+        "devpath": "3.3.4.2"
+      },
+      {
+        "index": 3,
+        "devpath": "3.3.4.3.4"
+      },
+      {
+        "index": 4,
+        "devpath": "3.3.3.4"
+      },
+      {
+        "index": 5,
+        "devpath": "3.3.4.3.3"
+      }
+    ],
+    "uarts": [
+      {
+        "index": 1,
+        "devpath": "3.3.3.2",
+        "baudRate": 115200
+      },
+      {
+        "index": 2,
+        "devpath": "3.3.4.3.2",
+        "baudRate": 115200
+      },
+      {
+        "index": 3,
+        "devpath": "3.3.2.4",
+        "baudRate": 115200
+      },
+      {
+        "index": 4,
+        "devpath": "3.3.2.2",
+        "baudRate": 115200
+      },
+      {
+        "index": 5,
+        "devpath": "3.3.2.3",
+        "baudRate": 115200
+      }
+    ],
+    "usbs": [
+      {
+        "index": 1,
+        "devpath": "3.2.4"
+      },
+      {
+        "index": 2,
+        "devpath": "3.2.3"
+      },
+      {
+        "index": 3,
+        "devpath": "3.3.3.3"
+      },
+      {
+        "index": 4,
+        "devpath": "3.2.2"
+      },
+      {
+        "index": 5,
+        "devpath": "3.4"
+      }
+    ]
+  }
+}

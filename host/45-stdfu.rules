@@ -1,0 +1,4 @@
+# /etc/udev/rules.d/45-stdfu.rules — lets the Client (group plugdev) flash STM32
+# boards in their DFU bootloader with dfu-util, e.g. Betaflight flight controllers.
+# Install: sudo cp host/45-stdfu.rules /etc/udev/rules.d/ && sudo udevadm control --reload
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="df11", MODE="0664", GROUP="plugdev"

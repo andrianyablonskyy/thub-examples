@@ -1,0 +1,6 @@
+# Scripts run on Linux Client hosts: keep LF line endings on every checkout.
+*.sh     text eol=lf
+*.py     text eol=lf
+*.robot  text eol=lf
+*.rules  text eol=lf
+*.json   text eol=lf

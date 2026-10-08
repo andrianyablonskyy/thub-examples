@@ -1,0 +1,9 @@
+{
+  "coordinatorUrl": "https://thub.example.com",
+  "type": "sw",
+  "labels": [
+    "renode",
+    "qemu"
+  ],
+  "joinKey": "<same value as the Coordinator's clientJoinKey>"
+}

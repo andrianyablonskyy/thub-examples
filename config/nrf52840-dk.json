@@ -1,0 +1,19 @@
+{
+  "coordinatorUrl": "https://thub.example.com",
+  "type": "hw",
+  "labels": [
+    "board:nrf52840-dk"
+  ],
+  "joinKey": "<same value as the Coordinator's clientJoinKey>",
+  "hw-devices": {
+    "usbs": [
+      {
+        "index": 1,
+        "devpath": "3.2.4",
+        "subsystem": "tty",
+        "vendorId": "1366",
+        "productId": "1015"
+      }
+    ]
+  }
+}

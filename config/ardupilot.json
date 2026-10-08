@@ -1,0 +1,19 @@
+{
+  "coordinatorUrl": "https://thub.example.com",
+  "type": "hw",
+  "labels": [
+    "fc:ardupilot",
+    "fc:matek-h743"
+  ],
+  "joinKey": "<same value as the Coordinator's clientJoinKey>",
+  "hw-devices": {
+    "usbPower": {
+      "ports": [
+        {
+          "hub": "1-3.2",
+          "port": 4
+        }
+      ]
+    }
+  }
+}

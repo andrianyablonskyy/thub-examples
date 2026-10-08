@@ -1,0 +1,26 @@
+{
+  "coordinatorUrl": "https://thub.example.com",
+  "type": "hw",
+  "labels": [
+    "fc:betaflight",
+    "fc:speedybee-f405-v4"
+  ],
+  "joinKey": "<same value as the Coordinator's clientJoinKey>",
+  "hw-devices": {
+    "usbs": [
+      {
+        "index": 1,
+        "devpath": "3.2.4",
+        "subsystem": "tty"
+      }
+    ],
+    "usbPower": {
+      "ports": [
+        {
+          "hub": "1-3.2",
+          "port": 4
+        }
+      ]
+    }
+  }
+}

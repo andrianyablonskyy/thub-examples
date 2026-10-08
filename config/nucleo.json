@@ -1,0 +1,25 @@
+{
+  "coordinatorUrl": "https://thub.example.com",
+  "type": "hw",
+  "labels": [
+    "board:nucleo-f401re"
+  ],
+  "joinKey": "<same value as the Coordinator's clientJoinKey>",
+  "hw-devices": {
+    "stlinks": [
+      {
+        "index": 1,
+        "devpath": "3.2.4",
+        "productId": "374b"
+      }
+    ],
+    "usbs": [
+      {
+        "index": 1,
+        "devpath": "3.2.4",
+        "subsystem": "tty",
+        "productId": "374b"
+      }
+    ]
+  }
+}
