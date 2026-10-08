@@ -31,6 +31,7 @@ config/    Whole Client configs, one per setup: hw-devices, labels (README §8.6
 host/      Client host setup, once: install-tools.sh, 45-stdfu.rules (STM32 DFU)
 test/      Checks these files (node --test); in the TestHub monorepo, also that the
            documentation shows them as they are here.
+RELEASE.md What changed, by date (README §14.1 of the monorepo).
 ```
 
 ## Using them
